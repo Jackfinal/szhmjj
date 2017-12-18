@@ -1,0 +1,17 @@
+<!--pages/utils/footer.wxml-->
+<view class='footer'>
+
+  <view class="foot_btn">
+    <view class='btn_layout'>
+      <button class='btn_call' bindtap='call'>电话热线</button>
+    </view>
+    <view class='btn_layout'>
+      <button class='btn_call' bindtap='goMap'>公司地址</button>
+    </view>
+  </view>
+
+  <view class='address_layout'>
+    <text class='address_tv'>{{info.dibu}}</text>
+  </view>
+
+</view>
